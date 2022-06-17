@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overstock</title>
+    <link rel="stylesheet" href="./style/cart.css"/>
+    <link rel="stylesheet" href="./style/navbar.css"/>
+    <link rel="stylesheet" href="./style/footer.css"/>
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+
+    <div id="navbar">
+        <!-- <-----------navbar----------->
+        <div id="navbar1">
+        </div>
+        <div id="bottom_nav">
+        </div>
+    </div>
+
+    <div id="cart">
+      <section id="cartSection">
+        <h1>Shoping cart</h1>
+        <div id="empty_cart"></div>
+        <div id="cartContainer">
+          <!-- Append cart products -->
+        </div>
+        </section>
+        <div id="cartdetails">
+          <div id="t1">
+          <div id="cartbox1"></div>
+          <div id="cartbox2"></div>
+          <!-- append cart details -->
+        </div>
+        
+        </div>
+        <div id="checkout1">
+            <a href="checkout.html">
+          <button id="checkout"></button></a>
+        </div>
+        
+      
+
+    </div>
+    <div id="Fotter"></div>
+  </body>
+</html>
+
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"></script>
+<script type="module">
+import {  navbar, bottom_nav } from '../components/navbar.js';
+
+document.getElementById('navbar1').innerHTML = navbar()
+document.getElementById('bottom_nav').innerHTML = bottom_nav()
+
+    import {footer} from '../components/fotter.js'
+    document.getElementById('Fotter').innerHTML=footer()
+ </script>
+
+<script src="./scrript/cart.js"></script>

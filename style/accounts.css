@@ -1,0 +1,218 @@
+body {
+    color: #444444;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400px;
+}
+
+#login_container {
+    display: flex;
+    gap: 52px;
+    justify-content: center
+}
+/* #login2{
+    border: 3px solid red;
+    
+} */
+#login1{
+    width: 310px;
+}
+#form1{
+    width: 310px;
+}
+#form1>h1{
+    margin-left:15px;
+}
+#form{
+    line-height: 0px;
+    border: 3px solid red;
+
+}
+
+.h1login{
+    font-size: 20px;
+    font-family:"Helvetica Neue"
+}
+
+label {
+    color: rgb(98, 102, 105);
+    font-size: 14px;
+    font-family:"Helvetica Neue" ;
+}
+
+#email{
+    width: 95%;
+    height: 35px;
+    font-size: 12px;
+    border: 1px solid rgb(200, 205, 209);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+
+#password{
+    display: flex;
+    gap: 22px;
+    justify-content: end;
+    padding-right:1%;
+    line-height: 13px;
+}
+
+#loginpassword{
+    width: 100%;
+    height: 34px;
+    padding-left:11px;
+    font-size: 12px;
+    border: 1px solid rgb(80, 78, 78);
+    border-radius: 7px;
+    
+}
+#confirmpassword {
+    width: 100%;
+    height: 34px;
+    padding-left:11px;
+    font-size: 12px;
+    border: 1px solid rgb(80, 78, 78);
+    border-radius: 7px;
+}
+
+#mandatory {
+    border: 1px solid rgb(80, 78, 78);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(200, 205, 209);
+    border-radius: 5px;
+}
+
+#create_button {
+    width: 100%;
+    height: 42px;
+    margin-top: 22px;
+    border-radius: 6px;
+    color: white;
+    background-color:#0272A2;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid rgb(200, 205, 209);
+    text-align: center;
+
+}
+#check>span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+#create_button:hover {
+    background-color:#0272A2;
+
+}
+
+#create_button > hr{
+    width: 83%;
+    margin: 17px;
+}
+
+#guest{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(250, 250, 250);
+    color: rgb(98, 102, 105);
+    font-weight: bold;
+    background-color:rgb(250, 250, 250);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#footer {
+    text-align: center;
+}
+#footer > p{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
+
+
+
+
+#line > hr {
+    height: 490px;
+    border: 0.1px solid rgb(241, 243, 245);
+    margin-top: 70px;
+
+}
+
+
+/* login part */
+
+#signincontainer {
+    width: 305px;
+}
+
+#signin_email {
+    width: 94%;
+    height: 37px;
+    border-radius: 7px;
+    padding-left: 11px;
+    font-size: 12px;
+    border: 1px solid rgb(250, 250, 250);
+    margin-top: 15px;
+}
+
+#loginpassword {
+    width: 98%;
+    height: 37px;
+    border-radius: 7px;
+    padding-left: 11px;
+    font-size: 12px;
+    border: 1px solid rgb(250, 250, 250);
+    margin-top: 20px;
+}
+
+
+#signin_button {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: rgb(98, 102, 105);
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#0272A2;
+    border-radius: 5px;
+    border: 1px solid rgb(250, 250, 250);
+    margin-top: 25px;
+    
+}
+
+#signin_button:hover {
+    background-color: #398062;
+}
+
+#forgotpassword{
+    color: #0272a2;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 26%;
+    background-color:rgb(250, 250, 250);
+
+}
+
+
+
+
+
+#last {
+    width: 32%;
+    margin-left: 10%;
+    line-height: 8px;
+    margin-top: 85px;
+}
+a{
+    text-decoration: none;
+    color: rgb(98, 102, 105);
+}

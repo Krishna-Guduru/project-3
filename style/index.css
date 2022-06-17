@@ -1,0 +1,176 @@
+#box1{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04252022-HP-A1-INTL-1400x550.jpg');
+  
+    
+    
+}
+h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+p{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color: rgb(47, 51, 55);
+} 
+#box2{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+#box2 > div{
+    /* border: 1px solid red; */
+    width: 170px;
+    cursor: pointer;
+}
+#box2 img{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 170px;
+    height: 160px;
+}
+
+#box3{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04252022_PatioFurnitureDeals_mobile.jpg?imwidth=1200');
+    width: 100%;
+    /* aspect-ratio: auto 637 / 664; */
+    /* height: 667px; */
+    display: block
+    
+} 
+.index-img1{
+    margin-top:200px;
+}
+#box4{
+     /* border: 1px solid red;  */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+    
+}
+#box4>div{
+    /* border: 1px solid red;  */
+    width: 150px;
+    cursor: pointer;
+}
+#box4 > div> img{
+    width: 160px;
+    height: 150px;
+}
+#box5{
+    /* border: 1px solid red;  */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 55px;
+    margin-top: 50px;
+    
+    
+}
+#box5>div{
+    /* border: 1px solid red; */
+    width: 305px;
+    background-color: rgb(248,248,248);
+}
+#box5 > div > img{
+    /* border: 1px solid red; */
+    width: 305px;
+    height: 305px;
+}
+#box6{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04252022_LivingRoomRefresh_mobile.jpg?imwidth=1200');
+     
+     /* position: absolute; */
+}
+ /* #box6 > img{
+     
+     position: relative;
+}  */
+#box7{
+    display: flex;
+    justify-content: space-around;
+}
+#box7 >  div{
+    /* border: 1px solid red; */
+
+    width: 300px;
+    background-color: white;
+}
+#box7 > div >  img{
+    /* border: 1px solid red; */
+    width: 305px;
+    height: 305px;
+}
+#box8{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/030822-RIUpdate-Dsk.jpg?imwidth=3840');
+    border: 1px solid red;
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+#box8  > img{
+    width: 100%;
+    
+}
+#box9{
+    display: flex;
+    justify-content: space-around;
+}
+#box9 >  div{
+    width: 405px;
+    background-color:white
+}
+#box9 > div > img{
+    width: 405px;
+    height: 405px;
+}
+#all_styles{
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    margin-left: 47%;
+    border-radius: 12px;
+    
+}
+#all_styles > p  {
+    margin: auto;
+    color: white;
+     text-align: center; 
+    margin-top: 10px;
+}
+#trending{
+    margin-left: 10px;
+    
+}
+#box10{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+#box10 > div{
+    /* border: 1px solid red; */
+    width: 405px;
+    margin-top: 25px;
+    padding-top: 11px;
+    height: 50px;
+    background-color:white;
+}
+h4{
+    text-align: center;
+    font-size:18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(84, 86, 88)
+
+}

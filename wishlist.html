@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overstock.com</title>
+    <link rel="stylesheet" href="./style/wishlist.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+
+
+</head>
+<script
+src="https://kit.fontawesome.com/24c494a6b6.js"
+crossorigin="anonymous"
+></script>
+
+<body>
+    <div id="navbar">
+   
+        <!-- <-----------navbar----------->
+        <div id="navbar1">
+        </div>
+
+
+        <div id="bottom_nav">
+        </div>
+    </div>
+    <div id="k1">
+    </div>
+
+    <div id="main">
+      <div id="sidediv">
+    <div id="kk1">
+        <div id="kk2">
+            <img src="https://pngtree.com/freepng/avatar-icon-profile-icon-member-login-vector-isolated_5247852.html" alt="">
+            <p class="p1"></p>
+        </div>
+        <div id="biosection">
+            <p id="ad"></p>
+            <p>
+                <a href="index.html">Let's get started</a>
+            </p>
+            <div id="kk3">
+                <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="">
+                <button id="edit">Edit Profile</button></div>
+        </div>
+    </div>
+
+        <div id="favorites">
+            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="">
+            <button id="favbtn">Favorites</button>
+            <p  class="p1" id="faves"></p>
+        </div>
+
+        <div id="lists">
+            <img src="https://cdn-icons.flaticon.com/png/512/5662/premium/5662990.png?token=exp=1655443975~hmac=3da20ac8daa32e197aa66be6fc614fc5" alt="">
+            <p>Lists</p>
+            <p  class="p1" id="listcount"></p>
+        </div>
+
+      </div>
+
+
+    <div id="Product"></div>
+    <div id="Form_div">
+        <form action=""  type="" id="Form" >
+    
+            <h1>Edit Profile</h1>
+            <hr>
+            <input type="text" placeholder="Name" class="kr" id="fname" required>
+            <input type="text" placeholder="Name" class="kr" id="lname" required>
+            <input type="text" placeholder="Name" class="kr" id="sname" required>
+            <input type="text" placeholder="Location" class="kr" id="loc" required>
+            <input type="text" placeholder="state" class="kr" id="state" required>
+            <input type="text" placeholder="Bio" id="bio" required>
+            <div>
+                <button id="cancel">Cancel</button>
+                <button id="save">Save</button>
+            </div>
+            
+            </form>
+        </div>
+</div>
+
+<div id="Fotter"></div>
+
+</body>
+</html>
+
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+<script type="module">
+ import {  navbar, bottom_nav } from './components/navbar.js';
+
+document.getElementById('navbar1').innerHTML = navbar()
+document.getElementById('bottom_nav').innerHTML = bottom_nav()
+
+    import {footer} from './components/footer.js'
+    document.getElementById('Fotter').innerHTML=footer()
+  </script>
+<script src="./scrript/wishlist.js"></script>

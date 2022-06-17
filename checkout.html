@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>overstock.com</title>
+    <link rel="stylesheet" href="./style/checkout.css">
+</head>
+<body>
+    <div id="container">
+    <div id="logo">
+<a href="index.html">
+  <img id="logoImage" src="https://logos-download.com/wp-content/uploads/2017/01/Overstock_logo.png"/></a>
+    <hr>
+    </div>
+    <div id="feddex">
+        <img id="fedxImage" src="https://ak1.ostkcdn.com/img/mxc/20170922_fedexLogo.png"/>
+    </div>
+    <h1>Shipping Address</h1>
+    <div id="shipping">
+        
+        <form>
+            <input type="text" id="FirstName" placeholder="Name"/>
+            <input type="text" id="lastName" placeholder=" Name"/><br>
+            <input type="text" id="Address" placeholder="Address Line 1"/><br>
+            <input type="text" id="Address2" placeholder="Address Line 2"/>
+            <input type="text" id="addressType" placeHolder="District">
+               <br>
+            <input type="text" id="City" placeholder="City"/>
+            <select id="state">
+                <option value="">Andhra Pradesh</option>
+                <option value="">TmailNadu</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerla</option>
+                <option value="">Odisa</option>
+            </select>
+            <br>
+            <input type="text" id="zip" placeholder="Std Code"/>
+
+            <input type="text" id="Mobile" placeholder="Mobile Phone"/><br>
+
+            <h2>Payment_Options</h2>
+
+            <p>
+                <input type="radio" id="test1" name="radio-group">
+
+                <label for="test1">Credit / Debit / OverStock Card</label>
+            
+            </p>
+
+            <div id="cardDetails">
+
+                <input type="number" id="cardNumber" placeholder="Card Number"/><br>
+                <div>
+                    <select class="month">
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Apr</option>
+                        <option value="5">May</option>
+                        <option value="6">Jun</option>
+                        <option value="7">Jul</option>
+                        <option value="8">Aug</option>
+                        <option value="9">Sep</option>
+                        <option value="10">Oct</option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dec</option>
+                    </select>
+                    <select class="year">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                    </select>
+                    <input type="number" class="cvv" placeholder="CVV"/>
+                </div>
+
+                
+            </div>
+                 <!-- <button id="submit">Submit Order</button>  -->
+                 <a  id="submit"href="order.html">Submit</a>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<script>
+          document.getElementById("submit").addEventListener("submit",payment)
+
+    function Payment(){
+         event.preventDefault();
+        window.location.href=oder.html
+    }
+    
+</script>
